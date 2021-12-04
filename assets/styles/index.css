@@ -1,0 +1,41 @@
+.banner {
+	padding: 30px;	
+	height: 90vh;
+
+	background-color: var(--color-blue);
+	color: var(--color-white);
+}
+
+.banner p mark {
+	background-color: var(--color-white);
+	color: var(--color-blue);
+
+	padding: 3px;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 6rem;
+}
+
+.banner-image {
+	background-color: var(--color-white);
+	border-radius: 100% 100% 0 0;
+	height: 60vh;	
+	margin-top: 30px;
+}
+
+.sub-banner-image {
+	border-radius: 0 0 50% 0;
+	width: 300px;
+}
+
+.sub-banner .legend {
+	font-size: 5rem;
+	padding-top: 10%;
+}
+

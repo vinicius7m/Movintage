@@ -9,9 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
-    
-    <link href="styles/global.css" rel="stylesheet" type="text/css" />
-    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="./assets/styles/global.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/styles/index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
@@ -21,18 +23,45 @@
             Movintage
           </a> 
           <ul class="nav-links">
-            <li><a href="">Produtos</a></li>
+            <li><a href="#products">Produtos</a></li>
             <li><a href="">Sobre</a></li>
             <li><a href="">Contato</a></li>
           </ul>
         </div>
-
       </nav>
     </header>
     <main>
-      <section id="banner"></section>
-      <section id="sub-banner"></section>
-      <section id="products"></section>
+      <section class="banner">
+        <div class="container">
+          <div class="wrapper">
+            <div class="col-6 title" style="margin: auto;">
+              <p>Móveis em um</p>
+              <p>estilo <mark><strong>diferente</strong></mark>!</p>
+            </div>
+            <div class="col-5 banner-image">
+              <img 
+                src="./assets/images/movel-banner.png" 
+                alt="Móvel de banner"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sub-banner">
+        <div class="container">
+          <div class="wrapper">
+            <div class="col-6">
+              <img class="sub-banner-image" src="./assets/images/sub-banner-image.jpg" alt="Imagem de mesa retrô">
+            </div>
+            <div class="col-5 legend">
+              <p>Monte os <strong>móveis</strong></p>
+              <p>da maneira que <strong>deseja</strong>!</p>
+              <button class="btn-outline-black">Planejar!</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products" id="products"></section>
     </main>
     <footer></footer>   
   </body>
