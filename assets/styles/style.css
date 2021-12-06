@@ -44,7 +44,25 @@ nav ul li a:hover {
 
 }
 
+.btn-black {
+  padding: 10px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  border: none;
+  font-family: 'PT Serif', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 30%;
+  transition: background-color 0.3s ease;
+}
+
+.btn-black:hover {
+  background-color: #000;
+}
+
 .btn-outline-black {
+  color: var(--color-black);
+  text-decoration: none;
   padding: 10px 40px;
   
   background-color: var(--color-white);
