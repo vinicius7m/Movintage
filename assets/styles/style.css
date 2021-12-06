@@ -5,14 +5,14 @@ body {
 }
 
 nav {
-  background-color: var(--color-blue);
+  background-color: var(--color-white);
   height: 10vh;
   padding: 0.5rem 0;
   font-weight: 500;
 }
 
 .nav-brand {
-  color: var(--color-dark-yellow);
+  color: var(--color-black);
   font-size: 4rem;
   font-family: 'Sacramento', sans-serif;
   text-decoration: none; 
@@ -32,14 +32,74 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--color-gray);
+  color: var(--color-black);
   text-decoration: none;
   margin-right: 40px;
   
-  transition: color 0.2s;
+  transition: border-bottom 0.2s ease;
 }
 
 nav ul li a:hover {
-  color: var(--color-white);
+  border-bottom: 2px solid var(--color-black);
 
+}
+
+.btn-outline-black {
+  padding: 10px 40px;
+  
+  background-color: var(--color-white);
+  
+  border: 2px solid var(--color-black);
+  
+  font-family: 'PT Serif', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  transition: 0.3s background-color ease-in;
+}
+
+.btn-outline-black:hover {
+  background-color: var(--color-black);
+  /* border: none; */
+  color: var(--color-white);
+}
+
+span {
+  font-size: 6.5rem;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #000;
+  color: var(--color-white);
+  padding: 40px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.footer-social-networks ul li {
+  list-style: none;
+  margin-right: 20px;
+  padding-top: 30px; 
+}
+
+.footer-social-networks ul li a {
+  font-size: 1.4rem;
+}
+
+.footer-copyright {
+  text-align: center;
 }

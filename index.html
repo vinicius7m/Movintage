@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
+
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,8 +26,8 @@
           </a> 
           <ul class="nav-links">
             <li><a href="#products">Produtos</a></li>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="./about.html">Sobre</a></li>
+            <li><a href="./contact.html">Contato</a></li>
           </ul>
         </div>
       </nav>
@@ -56,13 +58,75 @@
             <div class="col-5 legend">
               <p>Monte os <strong>móveis</strong></p>
               <p>da maneira que <strong>deseja</strong>!</p>
-              <button class="btn-outline-black">Planejar!</button>
+              <button class="btn-outline-black">Planejar! -></button>
             </div>
           </div>
         </div>
       </section>
-      <section class="products" id="products"></section>
+      <section class="products" id="products">
+        <div class="container">
+          <span>Produtos</span>
+          <div class="row-products">
+            <div class="card col-4">
+              <img
+                class="col-12"
+                src="https://i.pinimg.com/564x/ae/7a/56/ae7a567487a638a9ff394df1dab9ef89.jpg" 
+                alt="Imagem de mesa"
+              />
+              <p>Mesa</p>
+            </div>
+            <div class="card col-4">
+              <img 
+                class="col-12"
+                src="https://i.pinimg.com/564x/f8/ef/c3/f8efc3092702266712976c36848544b6.jpg" 
+                alt="Imagem de cadeira"
+              />
+              <p>Cadeira</p>
+            </div>
+            <div class="card col-4">
+              <img
+                class="col-12" 
+                src="https://i.pinimg.com/564x/c5/e4/03/c5e4037fd33f073e2a801eb0e1bb01cc.jpg" 
+                alt="Imagem de armário"
+              />
+              <p>Armário</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>   
+    <footer>
+      <div class="container">
+        <div class="d-flex col-12">
+          <div class="footer-address col-4">
+            <a class="nav-brand" href="./index.html" style="color: white;">
+              Movintage
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Doloribus quidem ipsam, alias unde nam ullam quam aperiam 
+            </p>
+          </div>
+          <div class="footer-links col-4">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./index.html#products">Produtos</a></li>
+              <li><a href="./about.html">Sobre</a></li>
+              <li><a href="./contact.html">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-social-networks col-4">
+            <ul class="d-flex">
+              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-4x"></i></a></li>
+              <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-4x"></i></a></li>
+              <li><a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp fa-4x"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 footer-copyright" style="padding-top: 20px;">
+          Movintage © 2021: Direitos Autorais
+        </div>
+      </div>
+    </footer>   
   </body>
 </html>

@@ -10,6 +10,7 @@
   --color-yellow: #E8CA2A;
   --color-white: #FFFFFF; 
   --color-gray: #CFCFCF;
+  --color-black: #111111;
   font-size: 10px;
 }
 
@@ -21,6 +22,10 @@
 
 [class*="col-"] {
   width: 100%;
+}
+
+.d-flex {
+  display: flex;
 }
 
 .container {
