@@ -16,7 +16,6 @@
 	transition: background-color 0.3s ease;
 }
 
-
 .wrapper {
 	display: flex;
   flex-wrap: wrap;
@@ -28,12 +27,14 @@
 	font-size: 6rem;
   text-align: start;
   margin: auto;
+	padding-bottom: 20px;
 }
 
 .banner img {
   width: 100%; 
   border: 2px solid var(--color-black);
 	border-radius: 100% 100% 0 0;
+	margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {

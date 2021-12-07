@@ -10,7 +10,7 @@ nav {
   height: 10vh;
   padding: 0.5rem 0;
   font-weight: 500;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .nav-brand {
@@ -95,9 +95,14 @@ footer {
   padding: 40px 0;
 }
 
+footer ul li a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
 .footer-links {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   padding-top: 30px;
 }
 
@@ -105,15 +110,16 @@ footer {
   list-style: none;
 }
 
-footer ul li a {
-  text-decoration: none;
-  color: var(--color-white);
+.footer-social-networks {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-social-networks ul li {
   list-style: none;
   margin-right: 20px;
   padding-top: 30px; 
+  
 }
 
 .footer-social-networks ul li a {
@@ -122,4 +128,12 @@ footer ul li a {
 
 .footer-copyright {
   text-align: center;
+}
+
+@media (min-width: 750px) {
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
 }
