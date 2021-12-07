@@ -44,7 +44,7 @@ html {
 
 @media (max-width: 600px) {
   .banner img {
-    width: 80vw;
+    display: none;
   }
 }
 
