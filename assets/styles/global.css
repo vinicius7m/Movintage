@@ -30,7 +30,8 @@
 
 .container {
   margin: 0 auto;  	
-	width: 1000px;  	
+	width: 80%;  	
+  /* padding: 20%; */
 }
 
 @media only screen and (min-width: 600px) {
@@ -49,7 +50,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .col-s-1 { width: 8.33%; }
+  .col-1 { width: 8.33%; }
   .col-2 { width: 16.66%; }
   .col-3 { width: 25%; }
   .col-4 { width: 33.33%; }

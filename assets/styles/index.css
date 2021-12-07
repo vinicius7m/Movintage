@@ -1,39 +1,45 @@
 .banner {
-	padding: 30px;	
-	height: 90vh;
+	/* padding: 30px;	 */
+	/* height: 90vh; */
+  /* margin: 5% 0 15% 0; */
 
 	background-color: var(--color-white);
 	color: var(--color-black);
 }
 
 .banner p mark {
-	border: 2px solid var(--color-black);
-	background-color: var(--color-white);
-	color: var(--color-black);
+	border: 2px solid var(--color-white);
+	background-color: var(--color-black);
+	color: var(--color-white);
 	
 	padding: 3px;
 	transition: background-color 0.3s ease;
 }
 
-.banner p mark:hover {
-	background-color: var(--color-black);
-	color: var(--color-white);
-}
 
 .wrapper {
 	display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .title {
 	font-weight: 700;
 	font-size: 6rem;
+  text-align: start;
+  margin: auto;
 }
 
-.banner-image {
-	border: 2px solid var(--color-black);
+.banner img {
+  width: 100%; 
+  border: 2px solid var(--color-black);
 	border-radius: 100% 100% 0 0;
-	height: 60vh;	
-	margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .banner img {
+    width: 80vw;
+  }
 }
 
 .sub-banner-image {
@@ -52,10 +58,6 @@
 	margin-bottom: 40px; 
 }
 
-.row-products {
-	display: flex;
-}
-
 .card, .card img {
 	margin: 10px;
 	border: 2px solid var(--color-black);
@@ -67,18 +69,3 @@
 	font-size: 3rem;
 	padding: 10px;
 }
-
-@media (max-width: 1100px) {
-	.row-products {
-		display: table;
-		margin: 0 auto;
-	}
-	.card {
-		width: 100%;
-	}
-	.container {
-		margin: 0;
-		width: 100%;
-	}
-}
-

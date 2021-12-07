@@ -1,6 +1,6 @@
 .contact {
-	height: 90vh;
-	padding-top: 20px;
+	/* height: 90vh; */
+	padding: 20px 0;
 }
 
 form input, textarea {
@@ -14,11 +14,20 @@ form input, textarea {
 	font-family: 'PT Serif', serif;
 }
 
-.information-contact {
-	margin-left: 60px;
+.information-contact, form {
+	margin-bottom: 5%;
 }
 
 .information-contact a {
 	text-decoration: none;
 	color: var(--color-black);
+}
+
+@media (min-width: 750px) {
+  .wrapper {
+    display: flex;
+  }
+  .information-contact {
+    margin-left: 10%;
+  }
 }

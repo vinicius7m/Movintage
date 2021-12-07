@@ -2,6 +2,7 @@ body {
   font-family: 'PT Serif', serif;
   font-size: 2rem;
   font-weight: 400;
+  width: 100%;
 }
 
 nav {
@@ -9,6 +10,7 @@ nav {
   height: 10vh;
   padding: 0.5rem 0;
   font-weight: 500;
+  margin-bottom: 40px;
 }
 
 .nav-brand {
