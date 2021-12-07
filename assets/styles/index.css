@@ -1,8 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .banner {
 	/* padding: 30px;	 */
 	/* height: 90vh; */
   /* margin: 5% 0 15% 0; */
-
+	margin: 7% 0;
 	background-color: var(--color-white);
 	color: var(--color-black);
 }
@@ -20,6 +24,7 @@
 	display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+	justify-content: center;
 }
 
 .title {
@@ -55,8 +60,7 @@
 }
 
 .products {
-	margin-top: 40px;
-	margin-bottom: 40px; 
+	margin: 10% 0;
 }
 
 .card, .card img {
